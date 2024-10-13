@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Body styling */
+.body-class {
+    background-color: #bdb2b2df; /* Subtle background color */
+}
+
+/* Header styling */
+.header-class {
+    background-color: #333; /* Contrasting background color */
+    color: #fff; /* Font color for better visibility */
+    padding: 20px;
+}
+
+/* Navigation bar styling */
+.nav-class {
+    background-color: #444; /* Different background color for nav */
+    color: #fff; /* Font color for nav */
+    padding: 10px;
+}
+
+.nav-link-class {
+    color: #fff; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px;
+}
+
+.nav-link-class:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Active link styling (example) */
+.nav-link-class.active {
+    font-weight: bold; /* Make active link bold */
+}
+
+/* Title and section title styling */
+.title-class, .section-title-class {
+    color: #0056b3; /* Distinct color for titles */
+}
+
+/* Text styling */
+.text-class {
+    color: #333; /* Contrasting font color */
+}
+
+/* Image styling */
+.image-class {
+    border: 5px solid #0056b3; /* Border color that complements design */
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Form styling */
+.form-class {
+    margin: 20px 0;
+}
+
+.input-class {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width for larger screens */
+}
+
+.button-class {
+    background-color: #0056b3; /* Cohesive button color */
+    color: white; /* Button text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-class:hover {
+    background-color: #004494; /* Darker shade on hover */
+}
+
+/* Footer styling */
+.footer-class {
+    background-color: #333; /* Distinct footer background */
+    color: #fff; /* Footer font color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Accessibility and responsive design */
+@media (max-width: 600px) {
+    .nav-class {
+        display: flex;
+        flex-direction: column; /* Stack nav links on smaller screens */
+    }
+
+    .input-class {
+        width: 90%; /* Responsive input width */
+    }
+}
